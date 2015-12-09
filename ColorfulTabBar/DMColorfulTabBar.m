@@ -17,7 +17,6 @@
 @property (nonatomic, strong) UIView *colorfulView;
 @property (nonatomic, strong) UIView *maskView;
 
-@property (nonatomic, assign) NSUInteger preIndex;
 @property (nonatomic, assign) NSUInteger toIndex;
 @end
 
@@ -80,8 +79,7 @@
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
 {
-	NSLog(@"%zd", index);
-	self.preIndex = self.toIndex;
+	NSLog(@"%zd", [self.items indexOfObject:item]);
 	self.toIndex = [self.items indexOfObject:item];
 	[self animation];
 }
