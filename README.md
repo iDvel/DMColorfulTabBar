@@ -4,4 +4,4 @@
 模仿https://github.com/saitjr/TColorfulTabBar
 做了个简单易懂的彩色TabBar
 
-! [] (./demo.gif)
+![image](./demo.gif)
