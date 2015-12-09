@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		340F17C71C18052300F688F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F17C61C18052300F688F8 /* main.m */; };
 		340F17CA1C18052300F688F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F17C91C18052300F688F8 /* AppDelegate.m */; };
-		340F17CD1C18052300F688F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F17CC1C18052300F688F8 /* ViewController.m */; };
-		340F17D01C18052300F688F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340F17CE1C18052300F688F8 /* Main.storyboard */; };
 		340F17D21C18052300F688F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340F17D11C18052300F688F8 /* Assets.xcassets */; };
 		340F17D51C18052300F688F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340F17D31C18052300F688F8 /* LaunchScreen.storyboard */; };
 		340F17E01C18052300F688F8 /* ColorfulTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F17DF1C18052300F688F8 /* ColorfulTabBarTests.m */; };
 		340F17EB1C18052300F688F8 /* ColorfulTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F17EA1C18052300F688F8 /* ColorfulTabBarUITests.m */; };
+		340F17FA1C18056E00F688F8 /* DMColorfulTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F17F91C18056E00F688F8 /* DMColorfulTabBar.m */; };
+		340F17FD1C180D4F00F688F8 /* DMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F17FC1C180D4F00F688F8 /* DMTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,6 @@
 		340F17C61C18052300F688F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		340F17C81C18052300F688F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		340F17C91C18052300F688F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		340F17CB1C18052300F688F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		340F17CC1C18052300F688F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		340F17CF1C18052300F688F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		340F17D11C18052300F688F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340F17D41C18052300F688F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340F17D61C18052300F688F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +48,10 @@
 		340F17E61C18052300F688F8 /* ColorfulTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorfulTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		340F17EA1C18052300F688F8 /* ColorfulTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulTabBarUITests.m; sourceTree = "<group>"; };
 		340F17EC1C18052300F688F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340F17F81C18056E00F688F8 /* DMColorfulTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMColorfulTabBar.h; sourceTree = "<group>"; };
+		340F17F91C18056E00F688F8 /* DMColorfulTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMColorfulTabBar.m; sourceTree = "<group>"; };
+		340F17FB1C180D4F00F688F8 /* DMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTabBarViewController.h; sourceTree = "<group>"; };
+		340F17FC1C180D4F00F688F8 /* DMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +104,10 @@
 			children = (
 				340F17C81C18052300F688F8 /* AppDelegate.h */,
 				340F17C91C18052300F688F8 /* AppDelegate.m */,
-				340F17CB1C18052300F688F8 /* ViewController.h */,
-				340F17CC1C18052300F688F8 /* ViewController.m */,
-				340F17CE1C18052300F688F8 /* Main.storyboard */,
-				340F17D11C18052300F688F8 /* Assets.xcassets */,
-				340F17D31C18052300F688F8 /* LaunchScreen.storyboard */,
-				340F17D61C18052300F688F8 /* Info.plist */,
+				340F17FB1C180D4F00F688F8 /* DMTabBarViewController.h */,
+				340F17FC1C180D4F00F688F8 /* DMTabBarViewController.m */,
+				340F17F81C18056E00F688F8 /* DMColorfulTabBar.h */,
+				340F17F91C18056E00F688F8 /* DMColorfulTabBar.m */,
 				340F17C51C18052300F688F8 /* Supporting Files */,
 			);
 			path = ColorfulTabBar;
@@ -117,6 +116,9 @@
 		340F17C51C18052300F688F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				340F17D11C18052300F688F8 /* Assets.xcassets */,
+				340F17D31C18052300F688F8 /* LaunchScreen.storyboard */,
+				340F17D61C18052300F688F8 /* Info.plist */,
 				340F17C61C18052300F688F8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -248,7 +250,6 @@
 			files = (
 				340F17D51C18052300F688F8 /* LaunchScreen.storyboard in Resources */,
 				340F17D21C18052300F688F8 /* Assets.xcassets in Resources */,
-				340F17D01C18052300F688F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				340F17CD1C18052300F688F8 /* ViewController.m in Sources */,
 				340F17CA1C18052300F688F8 /* AppDelegate.m in Sources */,
 				340F17C71C18052300F688F8 /* main.m in Sources */,
+				340F17FA1C18056E00F688F8 /* DMColorfulTabBar.m in Sources */,
+				340F17FD1C180D4F00F688F8 /* DMTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		340F17CE1C18052300F688F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				340F17CF1C18052300F688F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		340F17D31C18052300F688F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

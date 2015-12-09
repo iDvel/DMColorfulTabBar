@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "340F17C11C18052300F688F8"
+               BuildableName = "ColorfulTabBar.app"
+               BlueprintName = "ColorfulTabBar"
+               ReferencedContainer = "container:ColorfulTabBar.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "340F17DA1C18052300F688F8"
+               BuildableName = "ColorfulTabBarTests.xctest"
+               BlueprintName = "ColorfulTabBarTests"
+               ReferencedContainer = "container:ColorfulTabBar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "340F17E51C18052300F688F8"
+               BuildableName = "ColorfulTabBarUITests.xctest"
+               BlueprintName = "ColorfulTabBarUITests"
+               ReferencedContainer = "container:ColorfulTabBar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "340F17C11C18052300F688F8"
+            BuildableName = "ColorfulTabBar.app"
+            BlueprintName = "ColorfulTabBar"
+            ReferencedContainer = "container:ColorfulTabBar.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "340F17C11C18052300F688F8"
+            BuildableName = "ColorfulTabBar.app"
+            BlueprintName = "ColorfulTabBar"
+            ReferencedContainer = "container:ColorfulTabBar.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "340F17C11C18052300F688F8"
+            BuildableName = "ColorfulTabBar.app"
+            BlueprintName = "ColorfulTabBar"
+            ReferencedContainer = "container:ColorfulTabBar.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

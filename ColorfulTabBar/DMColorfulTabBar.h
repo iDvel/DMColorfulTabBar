@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DMColorfulTabBar.h
 //  ColorfulTabBar
 //
 //  Created by Dvel on 15/12/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DMColorfulTabBar : UITabBar
 
 @end
-
