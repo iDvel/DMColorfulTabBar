@@ -15,11 +15,6 @@
 
 @implementation DMTabBarViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-
 - (instancetype)init
 {
 	self = [super init];
